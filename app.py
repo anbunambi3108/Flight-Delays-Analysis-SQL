@@ -21,7 +21,7 @@ st.markdown("This dashboard analyzes US flight delay trends, causes, and high-ri
 @st.cache_data
 def load_data():
     try:
-        base_path = 'base_path = 'result/'/'
+        base_path = 'result/'
         result1 = pd.read_csv(f'{base_path}result1.csv')
         result2 = pd.read_csv(f'{base_path}result2.csv')
         result3 = pd.read_csv(f'{base_path}result3.csv')
