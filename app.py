@@ -21,7 +21,7 @@ st.markdown("This dashboard analyzes US flight delay trends, causes, and high-ri
 @st.cache_data
 def load_data():
     try:
-        base_path = 'C:/Users/anbun/Desktop/Portfolio projects/Flight-Delays-Analysis-SQL-main/result/'
+        base_path = 'Flight-Delays-Analysis-SQL-main/Flight-Delays-Analysis-SQL/result/'
         result1 = pd.read_csv(f'{base_path}result1.csv')
         result2 = pd.read_csv(f'{base_path}result2.csv')
         result3 = pd.read_csv(f'{base_path}result3.csv')
@@ -34,7 +34,7 @@ def load_data():
         result10 = pd.read_csv(f'{base_path}result10.csv')
         return result1, result2, result3, result4, result5, result6, result7, result8, result9, result10
     except FileNotFoundError as e:
-        st.error(f"Error loading data file: {e}. Please ensure the CSV files are in the 'Flight-Delays-Analysis-SQL-main/result/' directory.")
+        st.error(f"Error loading data file: {e}. Please ensure the CSV files are in the 'Flight-Delays-Analysis-SQL-main/Flight-Delays-Analysis-SQL/' directory.")
         return (pd.DataFrame() for _ in range(10))
 
 # Load all the dataframes
