@@ -14,10 +14,10 @@ Access the live dashboard here:  📎 **[https://flight-delays-analysis-sql-dash
 
 ## ❓ Key Questions Explored
 
-- 🕒 Which years experienced the most delays and cancellations?
-- 🌦️ What are the top reasons for flight delays?
-- 🛫 Which airports and airlines are the most delay-prone?
-- 🛬 Do specific time slots or routes suffer higher delays?
+- Which years experienced the most delays and cancellations?
+- What are the top reasons for flight delays?
+- Which airports and airlines are the most delay-prone?
+- Do specific time slots or routes suffer higher delays?
 
 ## 🔍 Key Insights
 
